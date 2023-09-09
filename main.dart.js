@@ -40284,7 +40284,7 @@ while(true)switch(s){case 0:o=A.vb("https","bsapi.herokuapp.com","/bs/usuarios",
 n=t.N
 m=A.a3(["nombre",a,"id",b,"clave",c],n,n)
 s=3
-return A.U(p.b.i8("POST",o,A.a3(["Access-Control-Allow-Origin","*","Content-Type","application/json","Accept","*/*"],n,n),m),$async$wB)
+return A.U(p.b.i8("POST",o,A.a3(["Content-Type","application/json"],n,n),m),$async$wB)
 case 3:q=p.GP(e)
 s=1
 break
@@ -40297,7 +40297,7 @@ while(true)switch(s){case 0:o=A.vb("https","bsapi.herokuapp.com","/bs/usuarios/l
 n=t.N
 m=A.a3(["id",a,"clave",b],n,n)
 s=3
-return A.U(p.b.i8("POST",o,A.a3(["Access-Control-Allow-Origin","*","Content-Type","application/json","Accept","*/*"],n,n),m),$async$wo)
+return A.U(p.b.i8("POST",o,A.a3(["Content-Type","application/json"],n,n),m),$async$wo)
 case 3:q=p.GP(d)
 s=1
 break
@@ -40555,7 +40555,7 @@ a4N(a){var s,r=null,q=t.BP,p=a.S(q),o=(p==null?q.a(p):p).f,n=a.S(t.w).f.a
 q=A.rP(!0,A.bb(r,r,r,r,r,n.b*0.1,r,r,r),B.a6,!0)
 p=A.dM(5)
 s=t.p
-return A.Af(A.cN(A.b([q,A.bb(r,A.cN(A.b([B.MU,B.bM,this.a4L(o),B.bM,this.a4M(o),B.bM,this.a4K(o),B.bM,A.ary(!1,B.MQ,B.u,r,r,r,r,r,new A.a20(o,a),r)],s),B.P,B.Q,B.E),r,r,new A.ce(B.cq,r,r,p,B.cF,r,B.a4),r,B.cx,B.cy,n.a*0.6),B.dO],s),B.P,B.Q,B.E))},
+return A.Af(A.cN(A.b([q,A.bb(r,A.cN(A.b([B.MU,B.bM,this.a4L(o),B.bM,this.a4M(o),B.bM,this.a4K(o),B.bM,A.ary(!1,B.MP,B.u,r,r,r,r,r,new A.a20(o,a),r)],s),B.P,B.Q,B.E),r,r,new A.ce(B.cq,r,r,p,B.cF,r,B.a4),r,B.cx,B.cy,n.a*0.6),B.dO],s),B.P,B.Q,B.E))},
 a4L(a){return A.ty(new A.a1Z(a),a.Cw$.fb(a.b),t.N)},
 a4M(a){return A.ty(new A.a2_(a),a.Cx$.fb(a.c),t.N)},
 a4K(a){return A.ty(new A.a1X(this,a),a.gNQ(),t.y)},
@@ -40592,7 +40592,7 @@ $2(a,b){var s=null,r=b.c,q=new A.iJ(this.a.c)
 return A.bb(s,A.MB(A.xG(s,s,s,s,s,s,s,s,!0,s,s,s,s,r!=null?J.cV(r):s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.BE,s,!1,s,s,s,"Contrase\xf1a",s,s,s,s,s,s,s,s,s,s,s,s,s),s,!0,q.gfa(q)),s,s,s,s,s,B.n5,s)},
 $S:47}
 A.a1X.prototype={
-$2(a,b){var s,r=null,q=A.bb(r,B.MP,r,r,r,r,r,B.n7,r),p=A.dM(5)
+$2(a,b){var s,r=null,q=A.bb(r,B.MR,r,r,r,r,r,B.n7,r),p=A.dM(5)
 if(b.b!=null){s=this.b.a
 s=s.gl(s)!=="     "}else s=!1
 s=s?new A.a1W(this.a,this.b,a):r
@@ -40731,7 +40731,7 @@ $1(a){return new A.n6(A.b([],t.VO),$.aR())},
 $S:165}
 A.GM.prototype={
 H(a,b){var s=null,r=A.cy(b,!0,t.Sh),q=b.S(t.w).f.a,p=q.b,o=A.rP(!0,A.bb(s,s,s,s,s,p*0.05,s,s,s),B.a6,!0),n=A.dM(5),m=t.p
-p=A.al0(A.Af(A.cN(A.b([o,A.bb(s,A.cN(A.b([B.MR,new A.AH(s)],m),B.P,B.Q,B.E),s,s,new A.ce(B.cq,s,s,n,B.cF,s,B.a4),p*0.9,B.cx,B.cy,q.a*0.9),B.dO],m),B.P,B.Q,B.E)),B.d9)
+p=A.al0(A.Af(A.cN(A.b([o,A.bb(s,A.cN(A.b([B.MQ,new A.AH(s)],m),B.P,B.Q,B.E),s,s,new A.ce(B.cq,s,s,n,B.cF,s,B.a4),p*0.9,B.cx,B.cy,q.a*0.9),B.dO],m),B.P,B.Q,B.E)),B.d9)
 n=A.ik(s,A.Zy(A.a8U(B.aq,A.fF(B.h2,s,s),new A.Xe(b),"Volver Atr\xe1s"),B.ai,B.ai),s,s,16,s,16,s)
 return A.oC(A.fQ(B.aA,A.b([B.dd,p,n,r.a?A.al0(A.aoR(b,!0),B.cw):A.apI(!0,A.aoR(b,!1),s,B.ai,B.ai,100,!1)],m),B.aI))}}
 A.Xe.prototype={
@@ -77621,10 +77621,10 @@ B.LZ=new A.u(!0,B.k,null,".SF UI Text",null,null,null,null,null,null,null,null,n
 B.Ks=new A.u(!0,B.k,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.i,null,null,null,"whiteCupertino labelSmall",null,null,null)
 B.MO=new A.ee(B.JT,B.Ly,B.LL,B.Mp,B.L7,B.Kf,B.LF,B.La,B.Li,B.M7,B.Kp,B.Mu,B.L2,B.LZ,B.Ks)
 B.vY=new A.AT(1,"longestLine")
-B.MP=new A.iy("Aceptar",null,null,null,null,null,null,null,null)
-B.MQ=new A.iy("Crear un Nuevo Jugador",null,null,null,null,null,null,null,null)
+B.MP=new A.iy("Crear un Nuevo Jugador",null,null,null,null,null,null,null,null)
 B.vV=new A.u(!0,null,null,null,null,null,20,B.aF,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.MR=new A.iy("Posicione sus barcos",null,B.vV,null,null,null,null,null,null)
+B.MQ=new A.iy("Posicione sus barcos",null,B.vV,null,null,null,null,null,null)
+B.MR=new A.iy("Aceptar2",null,null,null,null,null,null,null,null)
 B.MS=new A.iy("Seleccione Opci\xf3n",null,B.vV,null,null,null,null,null,null)
 B.MT=new A.iy("Volver a Identificaci\xf3n",null,null,null,null,null,null,null,null)
 B.MU=new A.iy("Identificaci\xf3n",null,B.vX,null,null,null,null,null,null)
