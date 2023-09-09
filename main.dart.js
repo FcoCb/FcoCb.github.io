@@ -40284,7 +40284,7 @@ while(true)switch(s){case 0:o=A.vb("https","bsapi.herokuapp.com","/bs/usuarios",
 n=t.N
 m=A.a3(["nombre",a,"id",b,"clave",c],n,n)
 s=3
-return A.U(p.b.i8("POST",o,A.a3(["Content-Type","application/json"],n,n),m),$async$wB)
+return A.U(p.b.i8("POST",o,A.a3(["Access-Control-Allow-Origin","*","Content-Type","application/json","Accept","*/*"],n,n),m),$async$wB)
 case 3:q=p.GP(e)
 s=1
 break
@@ -40297,7 +40297,7 @@ while(true)switch(s){case 0:o=A.vb("https","bsapi.herokuapp.com","/bs/usuarios/l
 n=t.N
 m=A.a3(["id",a,"clave",b],n,n)
 s=3
-return A.U(p.b.i8("POST",o,A.a3(["Content-Type","application/json"],n,n),m),$async$wo)
+return A.U(p.b.i8("POST",o,A.a3(["Access-Control-Allow-Origin","*","Content-Type","application/json","Accept","*/*"],n,n),m),$async$wo)
 case 3:q=p.GP(d)
 s=1
 break
@@ -77624,7 +77624,7 @@ B.vY=new A.AT(1,"longestLine")
 B.MP=new A.iy("Crear un Nuevo Jugador",null,null,null,null,null,null,null,null)
 B.vV=new A.u(!0,null,null,null,null,null,20,B.aF,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.MQ=new A.iy("Posicione sus barcos",null,B.vV,null,null,null,null,null,null)
-B.MR=new A.iy("Aceptar3",null,null,null,null,null,null,null,null)
+B.MR=new A.iy("Aceptar5",null,null,null,null,null,null,null,null)
 B.MS=new A.iy("Seleccione Opci\xf3n",null,B.vV,null,null,null,null,null,null)
 B.MT=new A.iy("Volver a Identificaci\xf3n",null,null,null,null,null,null,null,null)
 B.MU=new A.iy("Identificaci\xf3n",null,B.vX,null,null,null,null,null,null)
