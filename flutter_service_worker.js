@@ -7,7 +7,7 @@ const RESOURCES = {
 "assets/assets/audio/background_music.mp3": "b97d0206eb8417fd85257299c8bb2af6",
 "assets/assets/audio/explosions_hundido.mp3": "da20c5d4db20e81718ae9abacdf6c497",
 "assets/assets/audio/explosions_tocado.mp3": "bfd1b51d90ff2fb29656f92091b44331",
-"assets/assets/audio/lost_03.mp3": "d41d8cd98f00b204e9800998ecf8427e",
+"assets/assets/audio/lost_03.mp3": "85fad96d39342866100890abf3dbf33a",
 "assets/assets/audio/musica_fondo_nervios_01.mp3": "9051a41299591da647c2260a757d6617",
 "assets/assets/audio/underwater_agua.mp3": "65382407519caef0dc790acde2a9ec55",
 "assets/assets/audio/underwater_hundido.mp3": "503d22e4cc8ad39b69847db9217d8f88",
@@ -29,9 +29,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "a8d6cec329f8ef597a47a1fa41c19785",
-"/": "a8d6cec329f8ef597a47a1fa41c19785",
-"main.dart.js": "c8129603936e1ba86867593a9213bde2",
+"index.html": "bd67f2a6f130af7a5f8d4af57efd1598",
+"/": "bd67f2a6f130af7a5f8d4af57efd1598",
+"main.dart.js": "fae4cde28e2a927a21f3356185b272b5",
 "manifest.json": "462b76aec1ab40b1679dd3b7210ee5e5",
 "version.json": "c0619f7959767f5343e23f8df22fe996"
 };
